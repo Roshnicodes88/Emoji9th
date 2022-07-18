@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;        
+}
+.container{
+     position: absolute;
+     top: 50%;
+     left: 52%;
+     width: 420px;
+     height: 420px;
+     background-image: linear-gradient(orange,yellow);
+     border-radius: 50%;
+     transform: translate(-50%,-50%);
+     overflow: hidden;
+     border:10px solid orange;
+   }
+   .eye1{
+      position: absolute;
+      width:90px;
+      height:60px;
+      background:black;
+      opacity: 0.8;
+      top: 100px;
+      left: 70px;
+      border-radius: 50%; 
+      border: 2px solid brown;
+   }
+   .eye2{
+      position: absolute;
+      width:90px;
+      height:60px;
+      background: #000;
+      opacity: 0.8;
+      top: 100px;
+      right: 70px; 
+      border-radius:50%;
+      border: 2px solid brown;
+   }
